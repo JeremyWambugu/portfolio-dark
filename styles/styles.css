@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+header {
+  border: none;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(26, 25, 24, 0.59)), to(rgba(26, 25, 24, 0.59))), url(../img/hero.jpg);
+  background: linear-gradient(0deg, rgba(26, 25, 24, 0.59), rgba(26, 25, 24, 0.59)), url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  position: relative;
+}
+
+header nav {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
+}
+
+header nav #logo {
+  color: #DBDBE3;
+  font-size: 1.8rem;
+}
+
+header nav ul {
+  display: none;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-size: 1.2rem;
+}
+
+header nav #nav-ul.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .hamburger {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+header nav .hamburger:focus {
+  outline: none;
+}
+
+header .hero {
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+header .hero h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+header .hero h3 {
+  font-weight: 300;
+}
+
+header .hero .cta {
+  margin-top: 30px;
+}
+
+header .hero .cta button {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+header .hero .cta a {
+  padding-left: 10px;
+  font-size: 1.1rem;
+}
+
+header .hero #arrow-down {
+  width: 80px;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
+
+main .about {
+  background: #000000;
+  height: 40vh;
+  padding-top: 60px;
+}
+
+main .about h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+main .about p {
+  padding: 0 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+main .technologies {
+  height: 50vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0D0B0B), to(rgba(0, 0, 0, 0.71))), url("/img/technologiesbg.jpg");
+  background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url("/img/technologiesbg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+main .technologies h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+main .technologies .tech-stack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+main .technologies .tech-stack h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+main .technologies .tech-stack li {
+  list-style: none;
+  font-weight: 300;
+}
+
+main .portfolio {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(3, 3, 3, 0.822)), to(#0a0a0a)), url("/img/portfoliobg.jpg");
+  background: linear-gradient(0deg, rgba(3, 3, 3, 0.822), #0a0a0a), url("/img/portfoliobg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main .portfolio h2 {
+  border-left: 3px solid #11FF1B;
+  margin: 28px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+main .portfolio .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .portfolio .projects .project {
+  width: 168.81px;
+  height: 148.33px;
+  background: rgba(196, 196, 196, 0.22);
+  border: 0.50625px solid rgba(255, 255, 255, 0.603);
+  margin: 10px;
+}
+
+main .contact {
+  height: 30vh;
+  background: #000;
+}
+
+main .contact h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+main .contact .icons {
+  padding-top: 30px;
+  height: 90px;
+}
+
+main .contact .icons a {
+  margin-left: 30px;
+}
+
+footer {
+  height: 10vh;
+  background: #110e0e;
+  text-align: center;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
