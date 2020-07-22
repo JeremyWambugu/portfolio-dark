@@ -147,7 +147,7 @@ main {
 
     .technologies {
         height: 50vh;
-        background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url('/img/technologiesbg.jpg');
+        background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url('../img/technologies.jpg');
         background-position: center;
         background-size: cover;
 
@@ -191,7 +191,7 @@ main {
         }
 
         background: linear-gradient(0deg, rgba(3, 3, 3, 0.822), rgb(10, 10, 10)),
-        url('../img/portfoliobg.jpg');
+        url('../img/portfolio.jpg');
         background-size: cover;
         background-position: center;
 
