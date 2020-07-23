@@ -8,8 +8,6 @@
 
 html {
   scroll-behavior: smooth;
-  -ms-scroll-snap-type: mandatory;
-      scroll-snap-type: mandatory;
 }
 
 a {
@@ -115,7 +113,7 @@ header .hero {
 }
 
 header .hero h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-bottom: 12px;
 }

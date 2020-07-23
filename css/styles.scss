@@ -9,7 +9,7 @@
 html {
     scroll-behavior: smooth;
     // scroll-snap-stop: normal;
-    scroll-snap-type: mandatory;
+    // scroll-snap-type: mandatory;
 }
 
 a {
@@ -96,7 +96,7 @@ header {
         padding: 20px;
 
         h1 {
-            font-size: 3.2rem;
+            font-size: 3rem;
             font-weight: 500;
             margin-bottom: 12px;
 
