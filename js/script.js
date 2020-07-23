@@ -3,4 +3,6 @@ const navUl = document.getElementById('nav-ul')
 
 hambuger.addEventListener('click', () => {
     navUl.classList.toggle('show')
+    
+
 })

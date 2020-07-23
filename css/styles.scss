@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0.200;0,300;0,400;0,500;1,200&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    // scroll-snap-stop: normal;
+    scroll-snap-type: mandatory;
 }
 
 a {
@@ -17,12 +23,11 @@ body {
 }
 
 header {
-    border: none;
-    background: linear-gradient(0deg, rgba(26, 25, 24, 0.59), rgba(26, 25, 24, 0.59)), url(../img/hero.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.424)), url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 95vh;
-    position: relative;
+    height: 100vh;
+    // position: relative;
 
     nav {
         height: 10vh;
@@ -31,8 +36,10 @@ header {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin: 0 10px;
-
+        padding: 25px 20px;
+        // position: fixed;
+        width: 100%;
+        top: 0;
 
         #logo {
             color: #DBDBE3;
@@ -46,10 +53,14 @@ header {
 
             li {
                 margin: 10px;
+                width: 90%;
+                text-align: center;
                 list-style: none;
 
                 a {
                     font-size: 1.2rem;
+
+                  
 
                 }
             }
@@ -58,6 +69,8 @@ header {
         #nav-ul.show {
             display: flex;
             align-items: center;
+            background: #0000003b;
+
 
         }
 
@@ -76,14 +89,14 @@ header {
     }
 
     .hero {
-        height: 65vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 20px;
 
         h1 {
-            font-size: 2.8rem;
+            font-size: 3.2rem;
             font-weight: 500;
             margin-bottom: 12px;
 
@@ -129,12 +142,14 @@ main {
     .about {
 
         background: #000000;
-        height: 40vh;
+        height: 50vh;
         padding-top: 60px;
 
         h2 {
             text-align: center;
             padding: 20px;
+            font-weight: 400;
+            font-size: 2rem;
 
         }
 
@@ -154,16 +169,17 @@ main {
         h2 {
             text-align: center;
             padding-top: 30px;
+            font-weight: 400;
         }
 
         .tech-stack {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: center;
             flex-wrap: wrap;
             margin-top: 50px;
-            padding: 10px;
+            padding: 0 30px;
+            text-align: center;
 
             h3 {
                 font-weight: 500;
@@ -172,7 +188,8 @@ main {
 
             li {
                 list-style: none;
-                font-weight: 300;
+                font-weight: 200;
+                margin-bottom: 10px;
             }
         }
     }
@@ -220,6 +237,7 @@ main {
         h2 {
             text-align: center;
             padding-top: 30px;
+            font-weight: 400;
         }
 
         .icons {
@@ -234,8 +252,8 @@ main {
 }
 
 footer {
-    height: 10vh;
+    height: 5vh;
     background: rgb(17, 14, 14);
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }

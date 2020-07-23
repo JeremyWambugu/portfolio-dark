@@ -21,9 +21,10 @@
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul id="nav-ul">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Technologies</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
 
@@ -31,21 +32,22 @@
                 <h1>FullStack Web <br>Developer.</h1>
                 <h3>UI/UX Design, Digital Marketting.</h3>
                 <div class="cta">
-                    <button>Portfolio</button>
-                    <a href="#">Contact</a>
+                    <button><a href="#portfolio">Portfolio</a> </button>
+                    <a href="#">Resume</a>
                 </div>
-                <img id="arrow-down" src="./img/bi_arrow-down-right-circle.png" alt="">
+                <a href="#about"><img id="arrow-down" src="./img/bi_arrow-down-right-circle.png" alt="">
+                </a>
             </div>
         </header>
         <main>
-            <div class="about">
+            <div id="about" class="about">
                 <h2>About.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsum ipsam optio placeat, mollitia
                     dolorum quidem nihil debitis eos hic inventore velit, earum modi? Est quis minus optio veniam
                     aperiam.</p>
             </div>
-            <div class="technologies">
-                <h2>Technologies</h2>
+            <div id="technologies"  class="technologies">
+                <h2>Technologies.</h2>
                 <div class="tech-stack">
                     <div>
                         <h3>Backend</h3>
@@ -59,24 +61,26 @@
                     <div>
                         <h3>Front-End</h3>
                         <ul>
-                            <li>Node js</li>
-                            <li>Express js</li>
-                            <li>Mongoose</li>
-                            <li>Mongo Db</li>
+                            <li>HTML5</li>
+                            <li>CSS3 (sass)</li>
+                            <li>JavaScript</li>
+                            <li>React Js</li>
+                            <li>Vue Js</li>
                         </ul>
                     </div>
                     <div>
-                        <h3>Design</h3>
+                        <h3>Tools</h3>
                         <ul>
-                            <li>Node js</li>
-                            <li>Express js</li>
-                            <li>Mongoose</li>
-                            <li>Mongo Db</li>
+                            <li>Firebase</li>
+                            <li>Sketch</li>
+                            <li>Figma</li>
+                            <li>Scrum</li>
+                            <li>Git</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="portfolio">
+            <div id="portfolio" class="portfolio">
                 <h2>Portfolio</h2>
                 <div class="projects">
                     <div class="project"></div>
@@ -87,8 +91,8 @@
                     <div class="project"></div>
                 </div>
             </div>
-            <div class="contact">
-                <h2>Contacts</h2>
+            <div id="contacts" class="contact">
+                <h2>Contacts.</h2>
                 <div class="icons">
                     <a href=""><span class="iconify" data-icon="logos:linkedin" data-inline="false" data-width="120"
                             data-height="100"></span></a>

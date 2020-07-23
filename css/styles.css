@@ -1,9 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0.200;0,300;0,400;0,500;1,200&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
 }
 
 a {
@@ -17,13 +23,11 @@ body {
 }
 
 header {
-  border: none;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(26, 25, 24, 0.59)), to(rgba(26, 25, 24, 0.59))), url(../img/hero.jpg);
-  background: linear-gradient(0deg, rgba(26, 25, 24, 0.59), rgba(26, 25, 24, 0.59)), url(../img/hero.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.747)), to(rgba(0, 0, 0, 0.424))), url(../img/hero.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.424)), url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 95vh;
-  position: relative;
+  height: 100vh;
 }
 
 header nav {
@@ -43,7 +47,9 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 10px;
+  padding: 25px 20px;
+  width: 100%;
+  top: 0;
 }
 
 header nav #logo {
@@ -62,6 +68,8 @@ header nav ul {
 
 header nav ul li {
   margin: 10px;
+  width: 90%;
+  text-align: center;
   list-style: none;
 }
 
@@ -76,6 +84,7 @@ header nav #nav-ul.show {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: #0000003b;
 }
 
 header nav .hamburger {
@@ -91,7 +100,7 @@ header nav .hamburger:focus {
 }
 
 header .hero {
-  height: 65vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +115,7 @@ header .hero {
 }
 
 header .hero h1 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 12px;
 }
@@ -141,13 +150,15 @@ header .hero #arrow-down {
 
 main .about {
   background: #000000;
-  height: 40vh;
+  height: 50vh;
   padding-top: 60px;
 }
 
 main .about h2 {
   text-align: center;
   padding: 20px;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 main .about p {
@@ -167,6 +178,7 @@ main .technologies {
 main .technologies h2 {
   text-align: center;
   padding-top: 30px;
+  font-weight: 400;
 }
 
 main .technologies .tech-stack {
@@ -180,13 +192,11 @@ main .technologies .tech-stack {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 50px;
-  padding: 10px;
+  padding: 0 30px;
+  text-align: center;
 }
 
 main .technologies .tech-stack h3 {
@@ -196,7 +206,8 @@ main .technologies .tech-stack h3 {
 
 main .technologies .tech-stack li {
   list-style: none;
-  font-weight: 300;
+  font-weight: 200;
+  margin-bottom: 10px;
 }
 
 main .portfolio {
@@ -251,6 +262,7 @@ main .contact {
 main .contact h2 {
   text-align: center;
   padding-top: 30px;
+  font-weight: 400;
 }
 
 main .contact .icons {
@@ -263,9 +275,9 @@ main .contact .icons a {
 }
 
 footer {
-  height: 10vh;
+  height: 5vh;
   background: #110e0e;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
