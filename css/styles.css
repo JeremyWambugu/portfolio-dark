@@ -8,6 +8,8 @@
 
 html {
   scroll-behavior: smooth;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
 }
 
 a {
@@ -167,7 +169,8 @@ main .about p {
 
 main .technologies {
   height: 50vh;
-  background: url("../img/technologies.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#0D0B0B), to(rgba(0, 0, 0, 0.71))), url("../img/technologies.jpg");
+  background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url("../img/technologies.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -216,8 +219,8 @@ main .portfolio {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0D0B0B), to(rgba(0, 0, 0, 0.71))), url("../img/portfolio.jpg");
-  background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url("../img/portfolio.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(24, 16, 16, 0.849))), url("../img/portfolio.jpg");
+  background: linear-gradient(0deg rgba(0, 0, 0, 0.87), rgba(24, 16, 16, 0.849)), url("../img/portfolio.jpg");
   background-size: cover;
   background-position: center;
 }

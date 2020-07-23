@@ -9,7 +9,7 @@
 html {
     scroll-behavior: smooth;
     // scroll-snap-stop: normal;
-    // scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
 }
 
 a {
@@ -162,7 +162,7 @@ main {
 
     .technologies {
         height: 50vh;
-        background: url('../img/technologies.jpg');
+        background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url('../img/technologies.jpg');
         background-position: center;
         background-size: cover;
 
@@ -199,7 +199,7 @@ main {
         display: flex;
         flex-direction: column;
         // justify-content: center;
-        background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url('../img/portfolio.jpg');
+        background: linear-gradient(0deg rgba(0, 0, 0, 0.87), rgba(24, 16, 16, 0.849)), url('../img/portfolio.jpg');
         background-size: cover;
         background-position: center;
 
