@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.424)), url(../img/hero.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.747), rgba(37, 36, 36, 0.424)), url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -162,7 +162,7 @@ main {
 
     .technologies {
         height: 50vh;
-        background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url('../img/technologies.jpg');
+        background: url('../img/technologies.jpg');
         background-position: center;
         background-size: cover;
 
