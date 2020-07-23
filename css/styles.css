@@ -219,8 +219,8 @@ main .portfolio {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(3, 3, 3, 0.822)), to(#0a0a0a)), url("../img/portfolio.jpg");
-  background: linear-gradient(0deg, rgba(3, 3, 3, 0.822), #0a0a0a), url("../img/portfolio.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#0D0B0B), to(rgba(0, 0, 0, 0.71))), url("../img/portfolio.jpg");
+  background: linear-gradient(180deg, #0D0B0B 0%, rgba(0, 0, 0, 0.71) 100%), url("../img/portfolio.jpg");
   background-size: cover;
   background-position: center;
 }
